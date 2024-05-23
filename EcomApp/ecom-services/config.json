@@ -1,0 +1,27 @@
+{
+    "API": {
+        "SECRET_KEY": "key1"
+    },
+    "USERS": {
+        "user1": "password1",
+        "user2": "password2"
+    },
+    "PRODUCTS": [
+        {
+            "id": 1,
+            "name": "First Product One"
+        },
+        {
+            "id": 2,
+            "name": "Second Product Two"
+        }
+    ],
+    "URLS": [
+        {
+            "login": "http://localhost:5000/login"
+        },
+        {
+            "products": "http://localhost:5000/product"
+        }
+    ]
+}
